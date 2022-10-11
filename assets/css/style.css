@@ -338,8 +338,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 @media (max-width: 780px) {
   .custom-navbar > .container {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .section {
+    padding: 4rem;
   }
 }
 .custom-navbar .navbar-brand {
