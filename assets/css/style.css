@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 2rem 0;
 }
 
 .filters a {
@@ -333,21 +333,25 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 /* Custom Navbar */
 .custom-navbar {
-  padding-top: 50px;
   width: 100%;
 }
+
+.container {
+  justify-content: center !important;
+}
+
 @media (max-width: 780px) {
   .custom-navbar > .container {
     padding-right: 15px;
     padding-left: 15px;
   }
   .section {
-    padding: 4rem;
+    padding: 0.5rem;
   }
 }
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
-  width: 400px;
+  width: 600px;
 }
 
 .logo {
